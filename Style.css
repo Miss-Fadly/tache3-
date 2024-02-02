@@ -1,0 +1,89 @@
+body{
+    font-family: sans-serif;
+    background-repeat: repeat;
+    background-image: url(Imges/oumy.jpg);
+    background-size: cover;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    position: relative;
+    left: 300px;
+    padding: 80px;
+    height: 360px;
+    width: 680px;
+    
+}
+.image img{
+    width: 80%;
+    height: 440px;
+    position: relative;
+    right: 40%;
+    top:200px;
+    
+}
+.div1{
+    width: 450px;
+    position: relative;
+    left: 200px;
+    bottom: 290px;
+}
+.div2{
+    display: flex;
+    gap: 10px;
+    height: 20px;
+    position: relative;
+    right:13px;
+}
+ h1{
+    font-size: 25px;
+    text-align: center;
+ }
+.malia{
+    position: relative;
+    top:10px;
+} 
+.div1 input{
+    border-left: none;
+    border-right: none;
+    border-top:none; 
+    width: 430px;
+    height: 33px;
+}
+i{
+    position: relative;
+    left: 389px;
+    top: 30px;
+}
+.Mada{
+     color: white;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+} 
+.div3{
+    position: relative;
+    bottom:230px;
+    left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:600px){
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:758px){
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:900px){ 
+}
+  
